@@ -7,13 +7,19 @@ const styles = {
         color: 'white',
         padding: '0 20px',
         alignItems: 'left',
+        justifyContent: 'left',
+        width: '100%',
+    },
+    content:{
+        margin: '0px 5%',
+        padding: '1% 0%',
     },
 }
 
 function Header() {
     return (
         <header style={styles.header}>
-            <h1>Anthony</h1>
+            <h1 style={styles.content}> Anthony</h1>
         </header>);
 }
 
