@@ -5,6 +5,8 @@
 
 Making my new portfolio with React! 
 
+Deployed Link: [https://main--kaleidoscopic-custard-680b35.netlify.app](https://main--kaleidoscopic-custard-680b35.netlify.app)
+
 ## Installation 
 
 To start this application, clone this repo to your machine and open in visual code editor. Within the terminal of the editor enter 'npm run start' to open in your default browser.
