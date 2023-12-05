@@ -26,7 +26,7 @@ function AboutPage() {
     return (
         <div style={styles.container}>
             <div>
-                <img style={styles.image} src="/public/img/my-pic.jpg" />
+                <img style={styles.image} src="./img/my-pic.jpg" alt="Picture of Anthony" />
             </div>
            
             <div style={styles.content}>
