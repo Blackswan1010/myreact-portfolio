@@ -7,12 +7,21 @@ Making my new portfolio with React!
 
 ## Installation 
 
- 
-
+To start this application, clone this repo to your machine and open in visual code editor. Within the terminal of the editor enter 'npm run start' to open in your default browser.
 
 ## Usage 
 
+```jsx
+```
 
+```jsx
+```
+
+```jsx
+```
+
+```jsx
+```
 
 ## Author Info 
 
