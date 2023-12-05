@@ -1,6 +1,7 @@
 const styles = {
     container: {
         display: 'flex',
+        justifyContent: 'right',
     },
     content: {
         display: 'flex',
