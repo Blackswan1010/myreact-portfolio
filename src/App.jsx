@@ -13,8 +13,8 @@ function App() {
   return (
     <div style={styles.container}>
       <Header />
-      <Navigation />
-      <Outlet />
+        <Navigation />
+        <Outlet />
       <Footer />
     </div>
   );

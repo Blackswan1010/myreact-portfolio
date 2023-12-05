@@ -64,7 +64,7 @@ function ContactPage() {
   return (
     <div style={styles.container}>
       <div style={styles.content}>
-        <h2>Send me a message</h2>
+        <h3>Send me a message</h3>
         <form className="form" onSubmit={handleFormSubmit}>
           <div className="container text-left">
             Name:
@@ -101,7 +101,7 @@ function ContactPage() {
 
           {errorMessage && (
             <div>
-              <h3 className="error-text">{errorMessage}</h3>
+              <h4 className="error-text">{errorMessage}</h4>
             </div>
           )}
         </form>

@@ -30,7 +30,7 @@ function AboutPage() {
             </div>
            
             <div style={styles.content}>
-                <h1>About Me</h1>
+                <h3>About Me</h3>
                 <p style={styles.article}> My passion for technology began at a young age, which made me the go-to person for computer-related
                     issues for family and friends. This interest led me to explore building computers, and understanding
                     their inner workings.

@@ -11,7 +11,6 @@ const styles = {
         bottom: 0,
         width: '100%',
         height: '100%',
-
     },
     card: {
         width: '4px',
@@ -27,7 +26,7 @@ const styles = {
 function PortfolioPage() {
     return (
         <div style={styles.container}>
-            <h1>Portfolio Page</h1>
+            <h3>Portfolio Page</h3>
         </div>
     );
 }
