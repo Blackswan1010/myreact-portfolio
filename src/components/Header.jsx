@@ -6,8 +6,7 @@ const styles = {
         fontSize: '1.2rem',
         color: 'white',
         padding: '2% 20px',
-        alignItems: 'left',
-        justifyContent: 'left',
+        justifyContent: 'center',
         width: '100%',
         borderRadius: '0 0 50rem 50rem',
     },
@@ -16,12 +15,18 @@ const styles = {
         padding: '2% 0%',
         textShadow: '0px 0px 5px black',
     },
+    image: {
+        width: '10%',
+        borderRadius: '50rem',
+        justifyContent: 'right',
+        boxShadow: '0px 0px 3px black',
+    }
 }
 
 function Header() {
     return (
         <header style={styles.header}>
-            <h1 style={styles.content}> Anthony </h1>
+            <h1 style={styles.content}> Anthony <img src="./img/sleep-kirby.gif" style={styles.image}/></h1>
         </header>);
 }
 

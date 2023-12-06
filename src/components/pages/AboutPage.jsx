@@ -14,12 +14,13 @@ const styles = {
         width: '150px',
         height: '150px',
         borderRadius: 100,
+        margin: '10% 0 0 0',
     },
     header: {
         color: 'white',
         display: 'flex',
         justifyContent: 'center',
-        margin: '1% 10%',
+        margin: '0 10%',
         padding: '2%',
     },
     article:{
