@@ -5,11 +5,10 @@ const styles = {
         alignItems: 'center',
         flexWrap: 'wrap',
         background: '#9a74db',
-        gap: '2% 8%',
         position: 'relative',
-        width: '100%',
-        height: '100%',
         listStyleType: 'none',
+        padding: '1% 0 10% 0',
+        color: 'white',
     },
 
 }

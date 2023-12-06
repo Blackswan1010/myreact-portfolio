@@ -7,10 +7,14 @@ const styles = {
     alignItems: "center",
     flexWrap: "wrap",
     justifyContent: "center",
-    height: "100%",
+    padding: "0 0 15% 0",
   },
   content: {
-    
+    margin: "2% 0 0 0",
+    color: 'white',
+  },
+  form: {
+    padding: "20%",
   }
 
 
@@ -65,7 +69,7 @@ function ContactPage() {
     <div style={styles.container}>
       <div style={styles.content}>
         <h3> Contact Me </h3>
-        <form className="form" onSubmit={handleFormSubmit}>
+        <form className="form" onSubmit={handleFormSubmit} style={styles.form}>
           <div className="container text-left">
             Name:
             <input
@@ -75,7 +79,7 @@ function ContactPage() {
               type="text"
               placeholder="Enter your name here"
             />
-            <br/>
+            <br />
             Email:
             <input
               value={email}
@@ -84,7 +88,7 @@ function ContactPage() {
               type="email"
               placeholder="Enter your email here"
             />
-            <br/>
+            <br />
             Message:
             <input
               value={message}
@@ -94,7 +98,7 @@ function ContactPage() {
               placeholder="Enter a short message here"
             />
           </div>
-          <br/>
+          <br />
           <button type="submit" id="btnResume">
             Send Message
           </button>
