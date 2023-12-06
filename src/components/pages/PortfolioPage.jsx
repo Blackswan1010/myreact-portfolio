@@ -1,5 +1,5 @@
 import projects from './ProjectsInfo';
-
+import './PortfolioPage.css';
 
 const styles = {
     container: {
@@ -26,10 +26,12 @@ const styles = {
         position: 'relative',
         margin: '0 auto',
         marginTop: '30px',
+        borderRadius: '1rem',
     },
     image: {
         width: '100%',
         height: '100%',
+        borderRadius: '0.5rem',
     },
     icon: {
         width: '10%',
@@ -39,6 +41,7 @@ const styles = {
         display: 'flex',
         marginLeft: '10%',
         textAlign: 'left',
+        color: 'white',
     },
     projectHead: {
         textAlign: 'center',
@@ -52,7 +55,7 @@ function PortfolioPage() {
         <div>
             <h3 style={styles.pageHead}>My Projects</h3>
             <div style={styles.container}>
-                <div style={styles.card}>
+                <div className="card" style={styles.card}>
                     <h4 style={styles.projectHead}>{projects.horiseon.title}
                         <a href={projects.horiseon.github}>
                             <img src="/img/github.png" style={styles.icon} />
@@ -60,7 +63,7 @@ function PortfolioPage() {
                     </h4>
                     <img src={projects.horiseon.image} style={styles.image} />
                 </div>
-                <div style={styles.card}>
+                <div className="card" style={styles.card}>
                     <h4 style={styles.projectHead}>{projects.pwGen.title}
                         <a href={projects.pwGen.github}>
                             <img src="/img/github.png" style={styles.icon} />
@@ -68,7 +71,7 @@ function PortfolioPage() {
                     </h4>
                     <img src={projects.pwGen.image} style={styles.image} />
                 </div>
-                <div style={styles.card}>
+                <div className="card" style={styles.card}>
                     <h4 style={styles.projectHead}>{projects.jsQuiz.title}
                         <a href={projects.jsQuiz.github}>
                             <img src="/img/github.png" style={styles.icon} />
@@ -76,7 +79,7 @@ function PortfolioPage() {
                     </h4>
                     <img src={projects.jsQuiz.image} style={styles.image} />
                 </div>
-                <div style={styles.card}>
+                <div className="card" style={styles.card}>
                     <h4 style={styles.projectHead}>{projects.dayScheduler.title}
                         <a href={projects.dayScheduler.github}>
                             <img src="/img/github.png" style={styles.icon} />
@@ -84,7 +87,7 @@ function PortfolioPage() {
                     </h4>
                     <img src={projects.dayScheduler.image} style={styles.image} />
                 </div>
-                <div style={styles.card}>
+                <div className="card" style={styles.card}>
                     <h4 style={styles.projectHead}>{projects.sceneryFinder.title}
                         <a href={projects.sceneryFinder.github}>
                             <img src="/img/github.png" style={styles.icon} />
@@ -92,7 +95,7 @@ function PortfolioPage() {
                     </h4>
                     <img src={projects.sceneryFinder.image} style={styles.image} />
                 </div>
-                <div style={styles.card}>
+                <div className="card" style={styles.card}>
                     <h4 style={styles.projectHead}>{projects.readmeGen.title}
                         <a href={projects.readmeGen.github}>
                             <img src="/img/github.png" style={styles.icon} />
@@ -100,7 +103,7 @@ function PortfolioPage() {
                     </h4>
                     <img src={projects.readmeGen.image} style={styles.image} />
                 </div>
-                <div style={styles.card}>
+                <div className="card" style={styles.card}>
                     <h4 style={styles.projectHead}>{projects.employeeTracker.title}
                         <a href={projects.employeeTracker.github}>
                             <img src="/img/github.png" style={styles.icon} />
@@ -108,7 +111,7 @@ function PortfolioPage() {
                     </h4>
                     <img src={projects.employeeTracker.image} style={styles.image} />
                 </div>
-                <div style={styles.card}>
+                <div className="card" style={styles.card}>
                     <h4 style={styles.projectHead}>{projects.textEditor.title}
                         <a href={projects.textEditor.github}>
                             <img src="/img/github.png" style={styles.icon} />
