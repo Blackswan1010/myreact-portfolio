@@ -1,4 +1,4 @@
-// This file is currently isn't being used. Will be implemented in the future.
+// This file currently isn't being used. Will be implemented in the future.
 
 const styles = {
     container: {
