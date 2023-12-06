@@ -1,19 +1,23 @@
 import { Link, useLocation } from 'react-router-dom';
+import './Navigation.css';
 
 const styles = {
     container: {
         display: 'flex',
         justifyContent: 'right',
+        padding: '1% 0',
     },
     content: {
         display: 'flex',
         flexDirection: 'row',
-        alignItems: 'right',
-        background: '#9a74db',
-        minHeight: 50,
+        alignItems: 'center',
+        justifyContent: 'center',
+        background: '#9395D3',
         lineHeight: 3.5,
         color: 'white',
-        padding: '0 3%',
+        padding: '0 2%',
+        borderRadius: '4rem',
+        margin: '0 2% 0 0',
     },
     link: {
         color: 'white',
