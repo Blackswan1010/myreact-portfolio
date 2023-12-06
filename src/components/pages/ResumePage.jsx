@@ -37,7 +37,7 @@ function Resume() {
             <li>MySQL</li>
             <li>Sequelize</li>
             <li>MongoDB</li>
-            <li> Mongoose</li>
+            <li>Mongoose</li>
             <li>Rest</li>
             <li>GraphQL</li>
         </div>

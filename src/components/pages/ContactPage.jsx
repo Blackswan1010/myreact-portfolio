@@ -64,7 +64,7 @@ function ContactPage() {
   return (
     <div style={styles.container}>
       <div style={styles.content}>
-        <h3>Send me a message</h3>
+        <h3> Contact Me </h3>
         <form className="form" onSubmit={handleFormSubmit}>
           <div className="container text-left">
             Name:

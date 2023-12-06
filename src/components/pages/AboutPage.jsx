@@ -28,7 +28,6 @@ function AboutPage() {
             <div>
                 <img style={styles.image} src="./img/my-pic.jpg" alt="Picture of Anthony" />
             </div>
-           
             <div style={styles.content}>
                 <h3>About Me</h3>
                 <p style={styles.article}> My passion for technology began at a young age, which made me the go-to person for computer-related
