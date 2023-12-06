@@ -7,17 +7,26 @@ const styles = {
         justifyContent: 'center',
         background: '#9a74db',
         height: '100%',
+        padding: '0 0 15% 0',
     },
     image: {
-        width: '100px',
-        height: '100px',
+        display: 'flex',
+        width: '150px',
+        height: '150px',
         borderRadius: 100,
     },
-    content: {
-        margin: '0px 5%',
+    header: {
+        color: 'white',
+        display: 'flex',
+        justifyContent: 'center',
+        margin: '1% 10%',
+        padding: '2%',
     },
     article:{
-        margin: '0px 5%',
+        color: 'white',
+        display: 'flex',
+        justifyContent: 'center',
+        margin: '0px 10%',
     }
 
 }
@@ -28,8 +37,8 @@ function AboutPage() {
             <div>
                 <img style={styles.image} src="./img/my-pic.jpg" alt="Picture of Anthony" />
             </div>
-            <div style={styles.content}>
-                <h3>About Me</h3>
+            <div>
+                <h3 style={styles.header}>About Me</h3>
                 <p style={styles.article}> My passion for technology began at a young age, which made me the go-to person for computer-related
                     issues for family and friends. This interest led me to explore building computers, and understanding
                     their inner workings.
