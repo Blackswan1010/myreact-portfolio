@@ -1,3 +1,6 @@
+import { projects } from './ProjectsInfo';
+
+
 const styles = {
     container: {
         display: 'flex',
@@ -43,42 +46,75 @@ const styles = {
 
 }
 
+
 function PortfolioPage() {
     return (
         <div>
             <h3 style={styles.pageHead}>My Projects</h3>
             <div style={styles.container}>
                 <div style={styles.card}>
-                    <h4 style={styles.projectHead}>Horiseon Refactor <a href='https://github.com/Blackswan1010/horiseon-refactor'><img src="/img/github.png" style={styles.icon} /></a></h4>
-                    <img src="./img/digital-marketing-meeting.jpg" alt="placeholder" style={styles.image} />
+                    <h4 style={styles.projectHead}>{projects.horiseon.title}
+                        <a href={projects.horiseon.github}>
+                            <img src="/img/github.png" style={styles.icon} />
+                        </a>
+                    </h4>
+                    <img src={projects.horiseon.image} style={styles.image} />
                 </div>
                 <div style={styles.card}>
-                    <h4 style={styles.projectHead}>Password Generator <a href='https://github.com/Blackswan1010/password-generator'><img src="/img/github.png" style={styles.icon} /></a></h4>
-                    <img src="./img/password-gen.jpg" style={styles.image} />
+                    <h4 style={styles.projectHead}>{projects.pwGen.title}
+                        <a href={projects.pwGen.github}>
+                            <img src="/img/github.png" style={styles.icon} />
+                        </a>
+                    </h4>
+                    <img src={projects.pwGen.image} style={styles.image} />
                 </div>
                 <div style={styles.card}>
-                    <h4 style={styles.projectHead}>Javascript Quiz <a href='https://github.com/Blackswan1010/javascript-quiz'><img src="/img/github.png" style={styles.icon} /></a></h4>
-                    <img src="./img/js-quiz.jpg" style={styles.image} />
+                    <h4 style={styles.projectHead}>{projects.jsQuiz.title}
+                        <a href={projects.jsQuiz.github}>
+                            <img src="/img/github.png" style={styles.icon} />
+                        </a>
+                    </h4>
+                    <img src={projects.jsQuiz.image} style={styles.image} />
                 </div>
                 <div style={styles.card}>
-                    <h4 style={styles.projectHead}>Day Scheduler <a href='https://github.com/Blackswan1010/day-scheduler'><img src="/img/github.png" style={styles.icon} /></a></h4>
-                    <img src="./img/day-scheduler.jpg" style={styles.image} />
+                    <h4 style={styles.projectHead}>{projects.dayScheduler.title}
+                        <a href={projects.dayScheduler.github}>
+                            <img src="/img/github.png" style={styles.icon} />
+                        </a>
+                    </h4>
+                    <img src={projects.dayScheduler.image} style={styles.image} />
                 </div>
                 <div style={styles.card}>
-                    <h4 style={styles.projectHead}>Team Project 1 - Scenery Finder <a href='https://github.com/eviehoang/scenery-finder'><img src="/img/github.png" style={styles.icon} /></a></h4>
-                    <img src="./img/scenery-finder.png" style={styles.image} />
+                    <h4 style={styles.projectHead}>{projects.sceneryFinder.title}
+                        <a href={projects.sceneryFinder.github}>
+                            <img src="/img/github.png" style={styles.icon} />
+                        </a>
+                    </h4>
+                    <img src={projects.sceneryFinder.image} style={styles.image} />
                 </div>
                 <div style={styles.card}>
-                    <h4 style={styles.projectHead}>Readme Generator <a href='https://github.com/Blackswan1010/readme-maker'><img src="/img/github.png" style={styles.icon} /></a></h4>
-                    <img src="./img/readme-gen.jpg" style={styles.image} />
+                    <h4 style={styles.projectHead}>{projects.readmeGen.title}
+                        <a href={projects.readmeGen.github}>
+                            <img src="/img/github.png" style={styles.icon} />
+                        </a>
+                    </h4>
+                    <img src={projects.readmeGen.image} style={styles.image} />
                 </div>
                 <div style={styles.card}>
-                    <h4 style={styles.projectHead}>Employee Tracker <a href='https://github.com/Blackswan1010/employee-tracker'><img src="/img/github.png" style={styles.icon} /></a></h4>
-                    <img src="./img/employee-tracker.jpg" style={styles.image} />
+                    <h4 style={styles.projectHead}>{projects.employeeTracker.title}
+                        <a href={projects.employeeTracker.github}>
+                            <img src="/img/github.png" style={styles.icon} />
+                        </a>
+                    </h4>
+                    <img src={projects.employeeTracker.image} style={styles.image} />
                 </div>
                 <div style={styles.card}>
-                    <h4 style={styles.projectHead}>PWA Text Editor <a href='https://github.com/Blackswan1010/text-editor'><img src="/img/github.png" style={styles.icon} /></a></h4>
-                    <img src="./img/jate.jpg" style={styles.image} />
+                    <h4 style={styles.projectHead}>{projects.textEditor.title}
+                        <a href={projects.textEditor.github}>
+                            <img src="/img/github.png" style={styles.icon} />
+                        </a>
+                    </h4>
+                    <img src={projects.textEditor.image} style={styles.image} />
                 </div>
             </div>
         </div>
