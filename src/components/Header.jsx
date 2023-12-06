@@ -1,25 +1,27 @@
 const styles = {
     header: {
-        background: '#9a74db',
+        background: '#B3B7EE',
         minHeight: 50,
         lineHeight: 3.5,
         fontSize: '1.2rem',
         color: 'white',
-        padding: '0 20px',
+        padding: '2% 20px',
         alignItems: 'left',
         justifyContent: 'left',
         width: '100%',
+        borderRadius: '0 0 50rem 50rem',
     },
     content:{
-        margin: '0px 5%',
-        padding: '1% 0%',
+        margin: '0 0 0 20%',
+        padding: '2% 0%',
+        textShadow: '0px 0px 5px black',
     },
 }
 
 function Header() {
     return (
         <header style={styles.header}>
-            <h1 style={styles.content}> Anthony</h1>
+            <h1 style={styles.content}> Anthony </h1>
         </header>);
 }
 
