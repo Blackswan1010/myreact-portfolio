@@ -5,7 +5,7 @@
 
 Making my new portfolio with React! 
 
-
+![myreact-portfolio](https://github.com/Blackswan1010/myreact-portfolio/assets/144869976/0b7fe3d2-e306-4d53-992d-8debbdb89466)
 
 Deployed Link: [https://main--kaleidoscopic-custard-680b35.netlify.app](https://main--kaleidoscopic-custard-680b35.netlify.app)
 
