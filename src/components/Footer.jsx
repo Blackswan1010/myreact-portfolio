@@ -1,3 +1,4 @@
+import './Footer.css';
 
 const styles = {
     container: {
@@ -6,16 +7,18 @@ const styles = {
         alignItems: 'center',
         flexWrap: 'wrap',
         justifyContent: 'center',
-        background: '#9a74db',
+        background: '#9395D3',
         gap: '2%',
         position: 'fixed',
         bottom: 0,
-        width: '100%',
-        height: '100px',
+        width: '25%',
+        height: '50px',
+        borderRadius: '4rem 4rem 0 0',
+        margin: '0 0 0 37%',
     },
     image: {
-        width: '50px',
-        height: '50px',
+        width: '40px',
+        height: '40px',
     },
 }
 
